@@ -1,0 +1,96 @@
+.khoi_to {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.khoi_thu_1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 250px;
+    color: #FAFAFA;
+}
+.khoi_thu_1_1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.khoi_thu_1_2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.khoi_thu_3_tong {
+    display: flex;
+}
+.khoi_thu_6_tong_3_1_1:hover {
+    background-color: #DB4444;
+    color: white;
+}
+
+.cai_nhap_nhay:hover .o_mau_den {
+    display: block;
+}
+.o_mau_den {
+    display: none;
+    animation: hieuUng 0.1s;
+}
+
+@keyframes hieuUng{
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+.khoi_thu_5_tong_cuoi button:hover {
+    background-color: #DB4444;
+    color: white;
+}
+
+.khoi_bao_anh_so_9:hover .o_mau_den {
+    display: block;
+}
+.o_mau_den {
+    display: none;
+    animation: hieuUng 0.1s;
+}
+
+@keyframes hieuUng{
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+.khoi_thu_7_tong_1_2 button:hover {
+    background-color: #DB4444;
+    color: white;
+}
+.doi_mau:hover {
+    background-color:#00FF66 !important;
+    color: white;
+}
+.khoi_thu_9_tong_cuoi .Hover:hover{
+    background-color: #DB4444 !important;
+    color: white;
+}
+.khoi_bao_anh_so_7:hover .o_mau_den {
+    display: block;
+}
+.o_mau_den {
+    display: none;
+    animation: hieuUng 0.1s;
+}
+@keyframes hieuUng{
+    from{
+        transform: translateY(100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+.hover_gach_chan:hover {
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
